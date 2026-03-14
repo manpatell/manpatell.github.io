@@ -1,0 +1,279 @@
+/* ─── Reset & Base ─────────────────────────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: 'Lato', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background: #f5f5f5;
+  line-height: 1.5;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ─── Page Container ──────────────────────────────────────────────────────── */
+.page {
+  max-width: 1100px;
+  margin: 2rem auto;
+  background: #fff;
+  padding: 2.5rem 3rem;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* ─── Header ──────────────────────────────────────────────────────────────── */
+.header {
+  margin-bottom: 1.5rem;
+}
+
+.header h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #222;
+  display: inline;
+  margin-right: 0.6rem;
+}
+
+.header .subtitle {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.contact-info {
+  margin-top: 0.6rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.5rem;
+  font-size: 0.92rem;
+  color: #444;
+}
+
+.contact-info a {
+  color: #444;
+}
+
+.contact-info span {
+  white-space: nowrap;
+}
+
+/* ─── Two-Column Layout ───────────────────────────────────────────────────── */
+.columns {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.col-left {
+  flex: 0 0 36%;
+  min-width: 0;
+}
+
+.col-right {
+  flex: 1;
+  min-width: 0;
+}
+
+/* ─── Section ─────────────────────────────────────────────────────────────── */
+.section {
+  margin-bottom: 1.4rem;
+}
+
+.section h2 {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #222;
+  padding-bottom: 0.35rem;
+  border-bottom: 2px solid #333;
+  margin-bottom: 0.7rem;
+}
+
+/* ─── Skills ──────────────────────────────────────────────────────────────── */
+.skill-group {
+  margin-bottom: 0.75rem;
+}
+
+.skill-group h3 {
+  font-size: 0.92rem;
+  font-weight: 700;
+  margin-bottom: 0.15rem;
+}
+
+.skill-group p {
+  font-size: 0.88rem;
+  color: #555;
+  line-height: 1.45;
+}
+
+/* ─── Languages ───────────────────────────────────────────────────────────── */
+.language-item {
+  font-size: 0.92rem;
+  margin-bottom: 0.2rem;
+}
+
+.language-item strong {
+  font-weight: 700;
+}
+
+/* ─── Education ───────────────────────────────────────────────────────────── */
+.edu-entry {
+  margin-bottom: 0.75rem;
+}
+
+.edu-entry h3 {
+  font-size: 0.92rem;
+  font-weight: 700;
+  margin-bottom: 0.1rem;
+}
+
+.edu-entry .degree {
+  font-size: 0.88rem;
+  color: #444;
+}
+
+.edu-entry .meta {
+  font-size: 0.82rem;
+  color: #777;
+}
+
+/* ─── Certificates ────────────────────────────────────────────────────────── */
+.cert-list {
+  list-style: disc;
+  padding-left: 1.2rem;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.cert-list li {
+  margin-bottom: 0.15rem;
+}
+
+/* ─── Work Experience ─────────────────────────────────────────────────────── */
+.exp-entry {
+  margin-bottom: 1.1rem;
+}
+
+.exp-entry h3 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin-bottom: 0.05rem;
+}
+
+.exp-entry h3 span {
+  font-weight: 400;
+}
+
+.exp-entry .meta {
+  font-size: 0.82rem;
+  color: #777;
+  margin-bottom: 0.3rem;
+}
+
+.exp-entry ul {
+  list-style: disc;
+  padding-left: 1.2rem;
+  font-size: 0.88rem;
+  color: #444;
+}
+
+.exp-entry li {
+  margin-bottom: 0.2rem;
+  line-height: 1.45;
+}
+
+/* ─── Academic Projects ───────────────────────────────────────────────────── */
+.project-entry {
+  margin-bottom: 0.75rem;
+}
+
+.project-entry h3 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+
+.project-entry ul {
+  list-style: disc;
+  padding-left: 1.2rem;
+  font-size: 0.88rem;
+  color: #444;
+}
+
+.project-entry li {
+  margin-bottom: 0.2rem;
+  line-height: 1.45;
+}
+
+/* ─── Footer ──────────────────────────────────────────────────────────────── */
+.footer {
+  margin-top: 2rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: #999;
+}
+
+/* ─── Responsive ──────────────────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .page {
+    margin: 0;
+    padding: 1.5rem 1.2rem;
+    box-shadow: none;
+  }
+
+  .columns {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .col-left,
+  .col-right {
+    flex: 1 1 100%;
+  }
+
+  .header h1 {
+    font-size: 1.8rem;
+    display: block;
+  }
+
+  .header .subtitle {
+    display: block;
+    margin-top: 0.2rem;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+}
+
+@media print {
+  body {
+    background: #fff;
+  }
+
+  .page {
+    max-width: 100%;
+    margin: 0;
+    padding: 1.2cm 1.5cm;
+    box-shadow: none;
+  }
+}
