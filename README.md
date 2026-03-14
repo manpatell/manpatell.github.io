@@ -1,5 +1,11 @@
 # manpatell.github.io
 
-Professional portfolio website for Man Patel — Research Intern specialising in NoSQL Data Models Optimization, Machine Learning, and AI Governance.
+Professional portfolio website for Man Patel — Data and AI Engineer focused on sustainable data systems, NoSQL optimization, and responsible AI.
 
-Features a modern, responsive design with hero section, interactive timeline, skill cards, and contact section. Built with plain HTML and CSS. Hosted on [GitHub Pages](https://manpatell.github.io).
+The site is rebuilt as a modern, responsive single-page portfolio with:
+- Sticky navigation and mobile menu
+- Premium hero with profile snapshot and key metrics strip
+- Refined About, Experience, Skills, Projects, and Contact sections
+- Minimal executive visual style with clean typography and monochrome accents
+
+Built with plain HTML and CSS, optimized for GitHub Pages deployment.

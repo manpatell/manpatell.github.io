@@ -3,369 +3,220 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Man Patel – Data &amp; AI Engineer</title>
-  <meta name="description" content="Man Patel – Research Intern specialising in NoSQL Data Models Optimization, Machine Learning, Python, and multi-dimensional cost modeling. Based in Paris, France.">
+  <title>Man Patel | Data & AI Engineer</title>
+  <meta name="description" content="Man Patel is a Data and AI Engineer in Paris working on sustainable data systems, NoSQL optimization, and responsible AI.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-
-  <!-- ─── NAVIGATION ───────────────────────────────────────────────────── -->
-  <nav class="navbar" id="navbar">
-    <div class="nav-container">
-      <a href="#hero" class="nav-logo">MP</a>
-      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
-        <span></span><span></span><span></span>
+<body class="theme-minimal">
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Home">Man Patel</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navMenu">
+        <span></span>
+        <span></span>
       </button>
-      <ul class="nav-links" id="navLinks">
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+      <nav class="site-nav" id="navMenu" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
-  </nav>
+  </header>
 
-  <!-- ─── HERO ─────────────────────────────────────────────────────────── -->
-  <section class="hero" id="hero">
-    <div class="hero-content">
-      <p class="hero-greeting">Hello, I'm</p>
-      <h1 class="hero-name">Man Patel</h1>
-      <p class="hero-title">Research Intern in NoSQL Data Models Optimization</p>
-      <p class="hero-location"><i class="fa-solid fa-location-dot"></i> Paris, France</p>
-      <div class="hero-buttons">
-        <a href="#contact" class="btn btn-primary">Get In Touch</a>
-        <a href="#experience" class="btn btn-outline">View My Work</a>
-      </div>
-      <div class="hero-social">
-        <a href="https://linkedin.com/in/manpatell" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-        <a href="mailto:manpatel266@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
-      </div>
-    </div>
-  </section>
+  <main>
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Data & AI Engineer • Paris, France</p>
+          <h1>I build data systems that are fast, practical, and climate-conscious.</h1>
+          <p class="hero-copy">
+            I work at the intersection of data engineering and applied AI. My focus is to help teams improve performance and cost while
+            reducing environmental impact through better architecture decisions.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="mailto:manpatel266@gmail.com">Email Me</a>
+            <a class="btn btn-ghost" href="https://linkedin.com/in/manpatell" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </div>
+        </div>
 
-  <!-- ─── ABOUT ────────────────────────────────────────────────────────── -->
-  <section class="section" id="about">
-    <div class="container">
-      <h2 class="section-title">About Me</h2>
-      <div class="about-grid">
-        <div class="about-text">
+        <aside class="hero-panel hero-photo-card" aria-label="Profile photo">
+          <figure class="profile-photo-wrap">
+            <img class="profile-photo" src="Profile%20Photo.jpg" alt="Portrait of Man Patel">
+            <figcaption class="photo-caption">
+              <strong>Man Patel</strong>
+              <span>Data &amp; AI Engineer • Paris</span>
+            </figcaption>
+          </figure>
+        </aside>
+      </div>
+
+      <div class="container metric-strip" aria-label="Key metrics">
+        <div><strong>4+</strong><span>Years in Data &amp; AI</span></div>
+        <div><strong>5</strong><span>Industry Teams</span></div>
+        <div><strong>3</strong><span>Languages</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">About</p>
+          <h2>Research mindset, delivery focus.</h2>
+        </div>
+        <div class="about-grid">
           <p>
-            M2 Research Intern at <strong>DVRC</strong> (De Vinci Research Center) specialising in the environmental
-            optimisation of cloud-based NoSQL solutions. Experienced in
-            <strong>Machine Learning</strong> and <strong>Python</strong>, with a focus on
-            developing multi-dimensional cost models that balance query performance (Time),
-            financial expenditure (Money), and carbon footprint (Environment).
+            I am currently a research intern at De Vinci Research Center, where I contribute to the DaMoOp and FACT-DM frameworks.
+            I study how and when NoSQL data models should evolve as products, workloads, and sustainability constraints change.
           </p>
           <p>
-            Currently contributing to the <strong>DaMoOp</strong> and <strong>FACT-DM</strong> frameworks
-            by solving the limitation of the tool on How/When switch is needed in Data Model.
+            Beyond research, I have worked on consulting and applied projects in AI governance, forecasting, and analytics.
+            I enjoy turning technical complexity into decisions that engineering and business teams can act on.
           </p>
         </div>
-        <div class="about-highlights">
-          <div class="highlight-card">
-            <span class="highlight-number">4+</span>
-            <span class="highlight-label">Years Experience</span>
-          </div>
-          <div class="highlight-card">
-            <span class="highlight-number">5</span>
-            <span class="highlight-label">Companies</span>
-          </div>
-          <div class="highlight-card">
-            <span class="highlight-number">3</span>
-            <span class="highlight-label">Languages</span>
-          </div>
-          <div class="highlight-card">
-            <span class="highlight-number">3</span>
-            <span class="highlight-label">Certifications</span>
-          </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="experience">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Experience</p>
+          <h2>Recent experience and outcomes.</h2>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3>Research Intern · DVRC</h3>
+              <span>02/2026 – Present</span>
+            </div>
+            <p>Researching schema migration triggers and building tools for low-carbon data model decisions.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3>Student Consultant · Wavestone</h3>
+              <span>10/2025 – 01/2026</span>
+            </div>
+            <p>Analyzed GenAI platform metrics to support Cloud FinOps and Green IT strategy recommendations.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3>AI Governance Assistant · Stellantis</h3>
+              <span>04/2025 – 09/2025</span>
+            </div>
+            <p>Supported EU AI Act risk assessments, project tracking, and cross-functional governance reviews.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3>Lead Data Scientist · GIFEC</h3>
+              <span>09/2024 – 04/2025</span>
+            </div>
+            <p>Built forecasting models and presented insights to a broad business audience.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3>Data Analytics · Wordex Infotech</h3>
+              <span>12/2022 – 04/2024</span>
+            </div>
+            <p>Built SQL ETL pipelines and dashboards to improve day-to-day decision making.</p>
+          </article>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ─── EXPERIENCE ───────────────────────────────────────────────────── -->
-  <section class="section section-alt" id="experience">
-    <div class="container">
-      <h2 class="section-title">Work Experience</h2>
-      <div class="timeline">
-
-        <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <div>
-                <h3>Research Intern</h3>
-                <span class="company">DVRC (De Vinci Research Center)</span>
-              </div>
-              <span class="timeline-date">02/2026 – Present</span>
-            </div>
-            <span class="timeline-location"><i class="fa-solid fa-location-dot"></i> Paris, France</span>
-            <ul>
-              <li>Investigating "how and when" NoSQL models become irrelevant to define architectural triggers for schema migration.</li>
-              <li>Developing a tool within <strong>DaMoOp</strong> and <strong>FACT-DM</strong> frameworks to automate low-carbon data model generation.</li>
-              <li>Measuring multi-dimensional trade-offs between Query Latency (Time), Cloud Billing (Money), and Carbon Footprint (Environment).</li>
-              <li>Correlating data evolution and query patterns with environmental costs to optimise NoSQL denormalisation strategies.</li>
-            </ul>
-          </div>
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Skills</p>
+          <h2>Core skills I use across projects.</h2>
         </div>
 
-        <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <div>
-                <h3>Student Consultant</h3>
-                <span class="company">Wavestone Consulting</span>
-              </div>
-              <span class="timeline-date">10/2025 – 01/2026</span>
-            </div>
-            <span class="timeline-location"><i class="fa-solid fa-location-dot"></i> Paris, France</span>
-            <ul>
-              <li>Analysed GenAI platform metrics (electricity/water/carbon) to drive Cloud FinOps and GreenIT strategies.</li>
-              <li>Bridged technological progress with digital sobriety to optimise cloud cost control for enterprise clients.</li>
-              <li>Executed structured methodological frameworks for high-stakes advisory deliverables.</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <div>
-                <h3>AI Governance Assistant Intern</h3>
-                <span class="company">Stellantis</span>
-              </div>
-              <span class="timeline-date">04/2025 – 09/2025</span>
-            </div>
-            <span class="timeline-location"><i class="fa-solid fa-location-dot"></i> Paris, France</span>
-            <ul>
-              <li>Executed risk assessments aligned with the <strong>EU AI Act</strong> using external governance tools.</li>
-              <li>Developed automated tracking systems for AI project lifecycles across all business domains.</li>
-              <li>Participated in cross-functional governance meetings to audit AI project ideas for bias and fairness.</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <div>
-                <h3>Lead Data Scientist</h3>
-                <span class="company">GIFEC</span>
-              </div>
-              <span class="timeline-date">09/2024 – 04/2025</span>
-            </div>
-            <span class="timeline-location"><i class="fa-solid fa-location-dot"></i> Paris, France</span>
-            <ul>
-              <li>Built a forecasting suite (KNN, Random Forest) achieving 70% accuracy through complex feature engineering.</li>
-              <li>Delivered project findings to 200+ business leaders in Marseille.</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <div>
-                <h3>Data Analytics</h3>
-                <span class="company">Wordex Infotech</span>
-              </div>
-              <span class="timeline-date">12/2022 – 04/2024</span>
-            </div>
-            <span class="timeline-location"><i class="fa-solid fa-location-dot"></i> Surat, India</span>
-            <ul>
-              <li>Engineered SQL-based ETL workflows, increasing data accuracy by 20%.</li>
-              <li>Developed Power BI dashboards and API integrations for real-time client decision-making.</li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ─── SKILLS ───────────────────────────────────────────────────────── -->
-  <section class="section" id="skills">
-    <div class="container">
-      <h2 class="section-title">Skills &amp; Expertise</h2>
-      <div class="skills-grid">
-
-        <div class="skill-card">
-          <div class="skill-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
-          <h3>Research</h3>
-          <p>Data Modeling Optimisation, schema evolution analysis, multi-dimensional cost modeling (Time–Money–Carbon), literature review, cloud data system performance evaluation</p>
-        </div>
-
-        <div class="skill-card">
-          <div class="skill-icon"><i class="fa-solid fa-shield-halved"></i></div>
-          <h3>AI Governance &amp; Responsible AI</h3>
-          <p>Model Risk Assessment, Compliance Frameworks, Bias &amp; Fairness Evaluation, Documentation Standards</p>
-        </div>
-
-        <div class="skill-card">
-          <div class="skill-icon"><i class="fa-solid fa-brain"></i></div>
-          <h3>Machine Learning &amp; AI</h3>
-          <p>Supervised &amp; Unsupervised Learning (Regression, SVM, KNN, Decision Trees, Random Forests); Model Evaluation &amp; Monitoring</p>
-        </div>
-
-        <div class="skill-card">
-          <div class="skill-icon"><i class="fa-solid fa-database"></i></div>
-          <h3>Data Handling &amp; Processing</h3>
-          <p>Pandas, NumPy, ETL workflows, pipeline orchestration, Delta Lake &amp; Databricks notebooks</p>
-        </div>
-
-        <div class="skill-card">
-          <div class="skill-icon"><i class="fa-solid fa-chart-line"></i></div>
-          <h3>Visualization</h3>
-          <p>Matplotlib, Seaborn, Power BI (data modeling, DAX basics, interactive dashboards)</p>
-        </div>
-
-        <div class="skill-card">
-          <div class="skill-icon"><i class="fa-solid fa-language"></i></div>
-          <h3>Languages</h3>
-          <p><strong>English</strong> — C1 &nbsp;|&nbsp; <strong>French</strong> — B1 &nbsp;|&nbsp; <strong>Hindi</strong> — Native</p>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ─── EDUCATION ────────────────────────────────────────────────────── -->
-  <section class="section section-alt" id="education">
-    <div class="container">
-      <h2 class="section-title">Education &amp; Certificates</h2>
-      <div class="edu-grid">
-
-        <div class="edu-card">
-          <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
-          <h3>ESILV – Ecole Supérieure d'Ingénieurs Léonard de Vinci</h3>
-          <p class="edu-degree">Master of Engineering in Data and Artificial Intelligence</p>
-          <span class="edu-meta">2024 – 2026 &nbsp;|&nbsp; Paris, France</span>
-        </div>
-
-        <div class="edu-card">
-          <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
-          <h3>RK University</h3>
-          <p class="edu-degree">Bachelor of Computer Applications</p>
-          <span class="edu-meta">2019 – 2022 &nbsp;|&nbsp; Rajkot, India</span>
-        </div>
-
-      </div>
-
-      <h3 class="subsection-title">Certifications</h3>
-      <div class="cert-grid">
-        <div class="cert-badge">
-          <i class="fa-solid fa-certificate"></i>
-          <span>IBM watsonx.data Technical Essentials</span>
-        </div>
-        <div class="cert-badge">
-          <i class="fa-solid fa-certificate"></i>
-          <span>IBM Generative AI in Action</span>
-        </div>
-        <div class="cert-badge">
-          <i class="fa-solid fa-certificate"></i>
-          <span>IELTS C1 Level</span>
+        <div class="chip-grid">
+          <span>Data Model Optimization</span>
+          <span>NoSQL Schema Design</span>
+          <span>Machine Learning</span>
+          <span>AI Governance</span>
+          <span>Python &amp; SQL</span>
+          <span>ETL Pipelines</span>
+          <span>Cloud Cost Analysis</span>
+          <span>Carbon Impact Analysis</span>
+          <span>Power BI</span>
+          <span>Databricks</span>
+          <span>Model Evaluation</span>
+          <span>Technical Communication</span>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ─── PROJECTS ─────────────────────────────────────────────────────── -->
-  <section class="section" id="projects">
-    <div class="container">
-      <h2 class="section-title">Projects</h2>
-      <div class="projects-grid">
-        <div class="project-card">
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Projects</p>
+          <h2>Selected project.</h2>
+        </div>
+
+        <article class="project-card">
           <div class="project-tag">Green AI</div>
-          <h3>AI for Reducing Air Pollution</h3>
-          <p>Led a team in analysing New Delhi's air quality dataset. Applied Random Forest Algorithm, achieving <strong>0.90 R²</strong>, leading to insights for sustainable urban policies.</p>
-          <div class="project-tech">
-            <span>Python</span>
-            <span>Random Forest</span>
-            <span>Data Analysis</span>
-          </div>
-        </div>
+          <h3>Air Pollution Forecasting with Machine Learning</h3>
+          <p>
+            Led a team project on New Delhi air quality data and built a Random Forest model with an R² of 0.90.
+            The work helped translate data insights into practical recommendations for sustainability planning.
+          </p>
+        </article>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ─── CONTACT ──────────────────────────────────────────────────────── -->
-  <section class="section section-alt" id="contact">
-    <div class="container">
-      <h2 class="section-title">Get In Touch</h2>
-      <p class="contact-intro">I'm currently open to new opportunities and collaborations. Feel free to reach out!</p>
-      <div class="contact-grid">
-        <a href="mailto:manpatel266@gmail.com" class="contact-card">
-          <i class="fa-solid fa-envelope"></i>
-          <span class="contact-label">Email</span>
-          <span class="contact-value">manpatel266@gmail.com</span>
-        </a>
-        <a href="tel:+33759627766" class="contact-card">
-          <i class="fa-solid fa-phone"></i>
-          <span class="contact-label">Phone</span>
-          <span class="contact-value">+33(0)7 59 62 77 66</span>
-        </a>
-        <a href="https://linkedin.com/in/manpatell" target="_blank" rel="noopener noreferrer" class="contact-card">
-          <i class="fa-brands fa-linkedin-in"></i>
-          <span class="contact-label">LinkedIn</span>
-          <span class="contact-value">linkedin.com/in/manpatell</span>
-        </a>
-        <div class="contact-card">
-          <i class="fa-solid fa-location-dot"></i>
-          <span class="contact-label">Location</span>
-          <span class="contact-value">Paris, France</span>
+    <section class="section" id="contact">
+      <div class="container contact-wrap">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Open to research and data engineering opportunities.</h2>
+          <p>If you are building in AI, data platforms, or sustainable tech, I would be glad to connect.</p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:manpatel266@gmail.com">manpatel266@gmail.com</a>
+          <a href="tel:+33759627766">+33 (0)7 59 62 77 66</a>
+          <a href="https://linkedin.com/in/manpatell" target="_blank" rel="noopener noreferrer">linkedin.com/in/manpatell</a>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
-  <!-- ─── FOOTER ───────────────────────────────────────────────────────── -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-content">
-        <span class="footer-logo">Man Patel</span>
-        <div class="footer-social">
-          <a href="https://linkedin.com/in/manpatell" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-          <a href="mailto:manpatel266@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
-        </div>
-        <p class="footer-copy">&copy; 2026 Man Patel. All rights reserved.</p>
-      </div>
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© <span id="year"></span> Man Patel</p>
+      <a href="#top">Back to top</a>
     </div>
   </footer>
 
-  <!-- ─── SCRIPTS ──────────────────────────────────────────────────────── -->
   <script>
-    // Mobile navigation toggle
     const navToggle = document.getElementById('navToggle');
-    const navLinks = document.getElementById('navLinks');
+    const navMenu = document.getElementById('navMenu');
+
     navToggle.addEventListener('click', () => {
-      navLinks.classList.toggle('active');
-      navToggle.classList.toggle('active');
+      const expanded = navToggle.getAttribute('aria-expanded') === 'true';
+      navToggle.setAttribute('aria-expanded', String(!expanded));
+      navMenu.classList.toggle('open');
+      navToggle.classList.toggle('open');
     });
 
-    // Close mobile nav on link click
-    navLinks.querySelectorAll('a').forEach(link => {
+    navMenu.querySelectorAll('a').forEach((link) => {
       link.addEventListener('click', () => {
-        navLinks.classList.remove('active');
-        navToggle.classList.remove('active');
+        navMenu.classList.remove('open');
+        navToggle.classList.remove('open');
+        navToggle.setAttribute('aria-expanded', 'false');
       });
     });
 
-    // Navbar background on scroll
-    const navbar = document.getElementById('navbar');
-    window.addEventListener('scroll', () => {
-      navbar.classList.toggle('scrolled', window.scrollY > 50);
-    });
+    document.getElementById('year').textContent = new Date().getFullYear();
   </script>
-
 </body>
 </html>
